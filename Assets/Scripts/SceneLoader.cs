@@ -6,6 +6,8 @@ public class SceneLoader : MonoBehaviour {
     public GameObject MainMenuUI;
     public GameObject DeckBuilderUI;
     public GameObject ClanUI;
+    public GameObject ShopUI;
+    public GameObject SettingsUI;
 
     public void LoadBattleground(){
         SceneManager.LoadScene("Battleground");
@@ -26,6 +28,24 @@ public class SceneLoader : MonoBehaviour {
     }
     public void ClanReturn(){
         ClanUI.SetActive(false);
+        MainMenuUI.SetActive(true);
+    }
+
+    public void OpenSettings(){
+        MainMenuUI.SetActive(false);
+        SettingsUI.SetActive(true);
+    }
+    public void SettingsReturn(){
+        SettingsUI.SetActive(false);
+        MainMenuUI.SetActive(true);
+    }
+
+    public void OpenShop(){
+        MainMenuUI.SetActive(false);
+        ShopUI.SetActive(true);
+    }
+    public void ShopReturn(){
+        ShopUI.SetActive(false);
         MainMenuUI.SetActive(true);
     }
 }
