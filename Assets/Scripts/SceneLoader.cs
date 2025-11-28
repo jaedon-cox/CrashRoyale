@@ -14,13 +14,17 @@ public class SceneLoader : MonoBehaviour {
     }
 
     public void OpenDeckBuilder(){
-        MainMenuUI.SetActive(false);
-        DeckBuilderUI.SetActive(true);
+        SceneManager.LoadScene("Deck");
     }
     public void DeckBuilderConfirm(){
         DeckBuilderUI.SetActive(false);
         MainMenuUI.SetActive(true);
     }
+    public void DeckReturn()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 
     public void OpenClan(){
         MainMenuUI.SetActive(false);
