@@ -41,11 +41,10 @@ public class SceneLoader : MonoBehaviour {
     }
 
     public void OpenShop(){
-        MainMenuUI.SetActive(false);
-        ShopUI.SetActive(true);
+        SceneManager.LoadScene("Shop");
     }
     public void ShopReturn(){
-        ShopUI.SetActive(false);
-        MainMenuUI.SetActive(true);
+        SceneManager.LoadScene("MainMenu");
     }
 }
+
