@@ -468,7 +468,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1891FEDCC8F9D1066816BB96D2FC428EC30438AB
 IL2CPP_EXTERN_C String_t* _stringLiteral19AD0C41AB960FE0D2237D2136556223F13ACAC2;
 IL2CPP_EXTERN_C String_t* _stringLiteral22B754493A290BA9AA7D75FFB46FBA288A7C4F4F;
 IL2CPP_EXTERN_C String_t* _stringLiteral29C26AA219C04E92F81C79D766012FF3D5A43804;
-IL2CPP_EXTERN_C String_t* _stringLiteral2A69B645C0E88ACBBE1088BC98BA392E3A5C0CE0;
+IL2CPP_EXTERN_C String_t* _stringLiteral3029DC0D651C3FD807FCC348079E7187BDD40D39;
 IL2CPP_EXTERN_C String_t* _stringLiteral3371C9C28E563AFD0A683CA126F078F3F07B7306;
 IL2CPP_EXTERN_C String_t* _stringLiteral375F7CA672568A6DBCC141249B37055AA4256DEB;
 IL2CPP_EXTERN_C String_t* _stringLiteral381041D0FEE59A6E615372ECEBA4D316EB4EA230;
@@ -492,10 +492,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7E03C535E38B4169F81ADA91C121E6EC2210C46A
 IL2CPP_EXTERN_C String_t* _stringLiteral805B107E5A0FD91A36D6DDEF42EEF234C69C0708;
 IL2CPP_EXTERN_C String_t* _stringLiteral86A36C6F6A84F667731F21AC06EFA79D0D836576;
 IL2CPP_EXTERN_C String_t* _stringLiteral877BE0BAD0421508022E3F58B2CD519943D2EE8D;
-IL2CPP_EXTERN_C String_t* _stringLiteral879940724CBFD9F56E969F7CE61E9157C7EA6C79;
 IL2CPP_EXTERN_C String_t* _stringLiteral8A487BAA4556FE46247C9E82FA45126D254491FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral91E60A6C8CBD12CE39E39F884D16AFA650CF570C;
 IL2CPP_EXTERN_C String_t* _stringLiteral96BAAD4A81B51FD7271A5B9DAA92E71C9C08F8A3;
+IL2CPP_EXTERN_C String_t* _stringLiteral9CE3F48D20F97D89E78C8383FF3D4DB800D99EE8;
 IL2CPP_EXTERN_C String_t* _stringLiteralA56025010F2F34BDBF65A581289F767127F1A574;
 IL2CPP_EXTERN_C String_t* _stringLiteralA6F8530D0057C4924C3C7151E55A68CE9A843598;
 IL2CPP_EXTERN_C String_t* _stringLiteralB76766DDB07BD1627E12D11E7FD9851F58E88131;
@@ -20653,7 +20653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer_BlitToDebugTexture_mA8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BlitMaterialParameters_t364CE419AE85D7C8B2F764AD7939AC296A6DB08B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraphUtils_t5187325236407C6371A902639432312F5A5E6567_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral879940724CBFD9F56E969F7CE61E9157C7EA6C79);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3029DC0D651C3FD807FCC348079E7187BDD40D39);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral96BAAD4A81B51FD7271A5B9DAA92E71C9C08F8A3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB8478837555741A010697D1C433953E33242C036);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD1084CB06750938DE36B16810EFA215DA4A5E58E);
@@ -20685,7 +20685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer_BlitToDebugTexture_mA8
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_3 = ___1_source;
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_4 = ___2_destination;
 		il2cpp_codegen_runtime_class_init_inline(RenderGraphUtils_t5187325236407C6371A902639432312F5A5E6567_il2cpp_TypeInfo_var);
-		RenderGraphUtils_AddCopyPass_m83D3B93ADE538DA285E9CE79FF641EFB7255DA50(L_2, L_3, L_4, _stringLiteralD1084CB06750938DE36B16810EFA215DA4A5E58E, _stringLiteral879940724CBFD9F56E969F7CE61E9157C7EA6C79, ((int32_t)251), NULL);
+		RenderGraphUtils_AddCopyPass_m83D3B93ADE538DA285E9CE79FF641EFB7255DA50(L_2, L_3, L_4, _stringLiteralD1084CB06750938DE36B16810EFA215DA4A5E58E, _stringLiteral3029DC0D651C3FD807FCC348079E7187BDD40D39, ((int32_t)251), NULL);
 		return;
 	}
 
@@ -20704,7 +20704,7 @@ IL_0025:
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_8 = ___0_renderGraph;
 		BlitMaterialParameters_t364CE419AE85D7C8B2F764AD7939AC296A6DB08B L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(RenderGraphUtils_t5187325236407C6371A902639432312F5A5E6567_il2cpp_TypeInfo_var);
-		RenderGraphUtils_AddBlitPass_mD05B318455299EC1E50C534B568C77B3B438AC7C(L_8, L_9, _stringLiteral96BAAD4A81B51FD7271A5B9DAA92E71C9C08F8A3, _stringLiteral879940724CBFD9F56E969F7CE61E9157C7EA6C79, ((int32_t)260), NULL);
+		RenderGraphUtils_AddBlitPass_mD05B318455299EC1E50C534B568C77B3B438AC7C(L_8, L_9, _stringLiteral96BAAD4A81B51FD7271A5B9DAA92E71C9C08F8A3, _stringLiteral3029DC0D651C3FD807FCC348079E7187BDD40D39, ((int32_t)260), NULL);
 		return;
 	}
 
@@ -20732,7 +20732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer_BlitEmptyTexture_m2B01
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_AddRasterRenderPass_TisCopyToDebugTexturePassData_tDE84A21B303D75EC2486798A99BA2C709A5F63CE_mABF02D77C7133060B85358E8D387B6BC67EE999A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CBlitEmptyTextureU3Eb__156_0_m505AD9345AEE2B04272E88C92C86430E4E4194A8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t114D43095CC4E03878798ED5A9513EA64ED9D96B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral879940724CBFD9F56E969F7CE61E9157C7EA6C79);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3029DC0D651C3FD807FCC348079E7187BDD40D39);
 		s_Il2CppMethodInitialized = true;
 	}
 	RuntimeObject* V_0 = NULL;
@@ -20747,7 +20747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer_BlitEmptyTexture_m2B01
 		String_t* L_1 = ___2_passName;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
-		L_2 = RenderGraph_AddRasterRenderPass_TisCopyToDebugTexturePassData_tDE84A21B303D75EC2486798A99BA2C709A5F63CE_mABF02D77C7133060B85358E8D387B6BC67EE999A(L_0, L_1, (&V_1), _stringLiteral879940724CBFD9F56E969F7CE61E9157C7EA6C79, ((int32_t)271), RenderGraph_AddRasterRenderPass_TisCopyToDebugTexturePassData_tDE84A21B303D75EC2486798A99BA2C709A5F63CE_mABF02D77C7133060B85358E8D387B6BC67EE999A_RuntimeMethod_var);
+		L_2 = RenderGraph_AddRasterRenderPass_TisCopyToDebugTexturePassData_tDE84A21B303D75EC2486798A99BA2C709A5F63CE_mABF02D77C7133060B85358E8D387B6BC67EE999A(L_0, L_1, (&V_1), _stringLiteral3029DC0D651C3FD807FCC348079E7187BDD40D39, ((int32_t)271), RenderGraph_AddRasterRenderPass_TisCopyToDebugTexturePassData_tDE84A21B303D75EC2486798A99BA2C709A5F63CE_mABF02D77C7133060B85358E8D387B6BC67EE999A_RuntimeMethod_var);
 		V_0 = L_2;
 	}
 	{
@@ -27536,7 +27536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer_SetRenderingLayersGlob
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ContextContainer_Get_TisUniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626_m1CAD9250ED48A65B3DE774336F9221928EB054B4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraphUtils_tDC953A7099323FCDF5352374B249F7AD1C09DF87_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A69B645C0E88ACBBE1088BC98BA392E3A5C0CE0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9CE3F48D20F97D89E78C8383FF3D4DB800D99EE8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEAAD9C91FEB151E7019C2D8B7B777FBA9BB78DE1);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -27584,7 +27584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer_SetRenderingLayersGlob
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_10;
 		L_10 = UniversalResourceData_get_renderingLayersTexture_mD1DA84A88300CF3D97F518E197F19EA09ABF50BC(L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(RenderGraphUtils_tDC953A7099323FCDF5352374B249F7AD1C09DF87_il2cpp_TypeInfo_var);
-		RenderGraphUtils_SetGlobalTexture_m9F81590C4458DD722589DEFF05DA8A49D2576035(L_6, L_8, L_10, _stringLiteralEAAD9C91FEB151E7019C2D8B7B777FBA9BB78DE1, _stringLiteral2A69B645C0E88ACBBE1088BC98BA392E3A5C0CE0, ((int32_t)1630), NULL);
+		RenderGraphUtils_SetGlobalTexture_m9F81590C4458DD722589DEFF05DA8A49D2576035(L_6, L_8, L_10, _stringLiteralEAAD9C91FEB151E7019C2D8B7B777FBA9BB78DE1, _stringLiteral9CE3F48D20F97D89E78C8383FF3D4DB800D99EE8, ((int32_t)1630), NULL);
 	}
 
 IL_004a:
@@ -29026,7 +29026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalRenderer__cctor_m09CEBCFAB14E22
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 41311
+// Method Definition Index: 41323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m02D43DF516544C279AF660EA4731449C82991849_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -29049,7 +29049,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 41630
+// Method Definition Index: 41642
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_log2_m07B499B0DDA692EDD9DF4780349C26EB28199156_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29067,7 +29067,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_log2_m07B499B0DDA692ED
 		return ((float)L_1);
 	}
 }
-// Method Definition Index: 41329
+// Method Definition Index: 41341
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -29090,7 +29090,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 41315
+// Method Definition Index: 41327
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_min_mFBB411A5384A9CFD7787E398A6F758553D3700A9_inline (uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -29113,7 +29113,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 41333
+// Method Definition Index: 41345
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_max_mD9D4307218A8CFA92F9C26871E508B23C17F6395_inline (uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -29360,7 +29360,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 37812
+// Method Definition Index: 37821
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1 RenderingLayerMask_get_defaultRenderingLayerMask_m75949CAB9D04088013D84AF5835A3F38BB723A7B_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30727,7 +30727,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CopyDepthPass_set_MsaaSample
 		return;
 	}
 }
-// Method Definition Index: 40099
+// Method Definition Index: 40111
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SupportedRenderingFeatures_get_rendersUIOverlay_m657FFFC5B360F7BCE9964EF50E7449779224AEFC_inline (SupportedRenderingFeatures_t569A94D488395E4967F2CA349DB518EA7BD117A6* __this, const RuntimeMethod* method) 
 {
 	{

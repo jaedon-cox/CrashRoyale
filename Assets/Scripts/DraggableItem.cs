@@ -6,6 +6,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     private Canvas canvas;
     public Image image;
+    public int cardID;
     [HideInInspector] public Transform parentAfterDrag;
 
     private void Awake()

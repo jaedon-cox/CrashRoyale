@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 
 public class Slot : MonoBehaviour, IDropHandler
 {
+    public int slotIndex;
     public void OnDrop(PointerEventData eventData)
     {
         if (transform.childCount == 0)
